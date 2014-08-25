@@ -264,7 +264,7 @@ module top_level(
 		data_reg_o <= valid ? data_o : data_reg_o;
 	end
 	
-	i2c i2c_fuck (
+	i2c i2c_mpu6050 (
     .clk_i(clkdiv[3]),
     .reset_n(reset_n), 
     .sda_io(sda_io), 
